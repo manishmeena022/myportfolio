@@ -20,12 +20,12 @@ const info = [
     {
         icon: <FaPhoneAlt />,
         title: 'Phone',
-        description: '(+40) 321 654 876',
+        description: '(+91) 7836018112',
     },
     {
         icon: <FaEnvelope />,
         title: 'Email',
-        description: 'youremail@gmail.com',
+        description: 'manishmeena.mern@gmail.com',
     },
     {
         icon: <FaMapMarkerAlt />,
@@ -52,7 +52,7 @@ const Contact = () => {
                     <div className='xl:h-[54%] order-2 xl:order-none'>
                         <form className='flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl'>
                             <h3 className='text-4xl text-accent'>Let's work together</h3>
-                            <p className='text-white/60'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Euma ashad ks aksbd ak</p>
+                            <p className='text-white/60'>Have a project in mind or just want to say hi? Drop me a message and I'll get back to you as soon as possible.</p>
                             {/* input */}
                             <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                                 <Input type="firstname" placeholder="Firstname" />
@@ -68,10 +68,10 @@ const Contact = () => {
                                 <SelectContent>
                                     <SelectGroup>
                                         <SelectLabel>Select a service</SelectLabel>
-                                        <SelectItem value="wd">Web Dev</SelectItem>
-                                        <SelectItem value="ed">Web Dev</SelectItem>
-                                        <SelectItem value="fd">Web Dev</SelectItem>
-                                        <SelectItem value="nd">Web Dev</SelectItem>
+                                        <SelectItem value="wd">Frontend Development</SelectItem>
+                                        <SelectItem value="ed">Backend Development</SelectItem>
+                                        <SelectItem value="fd">Full Stack Development</SelectItem>
+                                        <SelectItem value="nd">Mobile App Development</SelectItem>
                                     </SelectGroup>
                                 </SelectContent>
                             </Select>

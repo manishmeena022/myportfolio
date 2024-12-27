@@ -1,7 +1,8 @@
 'use client';
 
 import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs } from 'react-icons/fa'
-import { SiTailwindcss, SiNextdotjs } from 'react-icons/si';
+import { SiTailwindcss, SiNextdotjs, SiExpress, SiMongodb, SiMysql, SiPostgresql, SiTypescript, SiPrisma, SiPostman, SiRedux } from 'react-icons/si';
+import { RiGraduationCapFill } from "react-icons/ri";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@radix-ui/react-tooltip';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -11,7 +12,7 @@ import { motion } from 'framer-motion';
 // about data
 const about = {
     title: 'About me',
-    description: 'sxy abc asad jaksdsad',
+    description: ' A motivated and skilled full-stack developer with 1.3 years of experience in building efficient and scalable web applications. Adept at working in a collaborative environment and passionate about learning and applying modern web development technologies.',
     info: [
         {
             fieldName: 'Name',
@@ -23,11 +24,7 @@ const about = {
         },
         {
             fieldName: 'Experience',
-            fieldValue: '1.9 Years'
-        },
-        {
-            fieldName: 'Skype',
-            fieldValue: 'Manish Meena'
+            fieldValue: '1.3 Years'
         },
         {
             fieldName: 'Nationality',
@@ -45,48 +42,52 @@ const about = {
             fieldName: 'Language',
             fieldValue: 'English, Hindi'
         },
+        {
+            fieldName: 'Address',
+            fieldValue: 'Delhi, India'
+        }
     ]
 };
 
 // experience data
 const experience = {
-    icon: '',
+    // icon: '🖥️',
     title: 'My experience',
-    description: 'abc cde efg hjk',
+    description: 'A snapshot of my journey in the professional world',
     items: [
         {
             company: 'Dynapt Solutions',
             position: 'Software Developer',
-            duration: 'Sep 2023 - Present'
+            duration: 'March 2023 - Present'
         },
         {
-            company: 'Dynapt Solutions',
-            position: 'Intern',
-            duration: 'Feb, 2023 - Aug 2023'
+            company: 'Coding Ninjas',
+            position: 'Teaching Assistant',
+            duration: 'Jan, 2023 - March 2023'
         }
     ]
 };
 
 // education data
 const education = {
-    icon: '',
+    // icon: <RiGraduationCapFill />,
     title: 'My education',
-    description: 'abc cde efg ghi ijk',
+    description: 'The foundation of my technical expertise and problem-solving abilities.',
     items: [
         {
             institution: 'Coding Ninjas',
             degree: 'Full Stack Web Development Bootcamp',
-            duration: "2022"
+            duration: "2022 - 2023"
         },
         {
-            institution: 'NSIT',
-            degree: 'BE (IT)',
-            duration: "2016-2020"
+            institution: 'Netaji Subhas Institute of Technology',
+            degree: 'Bachelor of Engineering (Information Technology)',
+            duration: "2016 - 2020"
         },
         {
-            institution: 'K.V. J.P.',
-            degree: 'I-XII',
-            duration: '2004-2016'
+            institution: 'Kendriya Vidyalaya Janakpuri',
+            degree: 'I - XII',
+            duration: '2004 - 2016'
         }
     ]
 };
@@ -94,7 +95,7 @@ const education = {
 // skills data
 const skills = {
     title: 'My skills',
-    description: 'abc cde efg ghi ijk lmo',
+    description: 'A blend of technical expertise and creative design skills to deliver impactful solutions.',
     skillList: [
         {
             icons: <FaHtml5 />,
@@ -109,6 +110,10 @@ const skills = {
             name: 'javascript'
         },
         {
+            icons: <SiTypescript />,
+            name: 'typescript'
+        },
+        {
             icons: <FaReact />,
             name: 'react.js'
         },
@@ -117,17 +122,46 @@ const skills = {
             name: 'next.js'
         },
         {
-            icons: <SiTailwindcss />,
-            name: 'tailwindcss'
+            icons: <SiRedux />,
+            name: 'redux'
         },
         {
             icons: <FaNodeJs />,
             name: 'node.js'
         },
         {
+            icons: <SiExpress />,
+            name: 'express.js'
+        },
+        {
+            icons: <SiMongodb />,
+            name: 'mongodb'
+        },
+        {
+            icons: <SiMysql />,
+            name: 'mysql'
+        },
+        {
+            icons: <SiPostgresql />,
+            name: 'postgresql'
+        },
+        {
+            icons: <SiPrisma />,
+            name: 'prisma'
+        },
+        {
             icons: <FaFigma />,
             name: 'figma'
-        }
+        },
+        {
+            icons: <SiTailwindcss />,
+            name: 'tailwindcss'
+        },
+        {
+            icons: <SiPostman />,
+            name: 'postman'
+        },
+
     ]
 };
 
@@ -212,7 +246,7 @@ const Resume = () => {
                                         return <li key={index}>
                                             <TooltipProvider delayDuration={100}>
                                                 <Tooltip>
-                                                    <TooltipTrigger className='w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group'>
+                                                    <TooltipTrigger className='w-full h-[120px] bg-[#232329] rounded-xl flex justify-center items-center group'>
                                                         <div className='text-6xl group-hover:text-accent transition-all duration-300'>{skill.icons}</div>
                                                     </TooltipTrigger>
                                                     <TooltipContent>

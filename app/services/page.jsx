@@ -7,26 +7,26 @@ import Link from 'next/link';
 const services = [
     {
         num: '01',
-        title: 'Web Development',
-        description: 'abc absd sadas d asdasdas asddsad ',
+        title: 'Frontend Development',
+        description: 'Creating visually appealing and user- friendly interfaces using modern technologies like HTML, CSS, and JavaScript.I specialize in frameworks such as React, Angular, and Vue.js to build responsive and interactive web applications.',
         href: ""
     },
     {
         num: '02',
-        title: 'UI/UX Design',
-        description: 'abc absd sadas d asdasdas asddsad ',
+        title: 'Backend Development',
+        description: 'Developing robust and scalable server- side applications with Node.js, Express, and other backend technologies.My expertise includes database management with MongoDB, PostgreSQL, and ensuring secure and efficient API integrations.',
         href: "",
     },
     {
         num: '03',
-        title: 'Logo Design',
-        description: 'abc absd sadas d asdasdas asddsad ',
+        title: 'Full Stack Development',
+        description: 'Combining both frontend and backend development skills to create comprehensive web solutions.From designing responsive user interfaces to implementing secure and efficient server- side logic, I deliver end - to - end solutions that meet client needs.',
         href: ""
     },
     {
         num: '04',
-        title: 'SEO',
-        description: 'abc absd sadas d asdasdas asddsad ',
+        title: 'Mobile App Development',
+        description: 'Building high- performance mobile applications for both iOS and Android platforms using technologies like React Native and Flutter.I ensure seamless user experiences and efficient functionality tailored to client requirements.',
         href: ""
     },
 ];
