@@ -18,64 +18,46 @@ import Link from "next/link";
 import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
+const frontend = "/assets/work/emporium/image2.png";
+const fullstack = "/assets/work/echoshop/image1.png";
+
 const projects = [
     {
         num: '01',
-        category: 'frontend',
-        title: 'project 1',
-        description: '',
+        category: 'frontend Project',
+        title: 'Emporium',
+        description: 'A simple e-commerce website built with React and SCSS.',
         stack: [
             { name: 'Html 5' },
             { name: 'Css 3' },
-            { name: 'JavaScript' }
+            { name: 'JavaScript' },
+            { name: 'React' },
+            { name: 'SCSS' }
         ],
-        image: '/',
-        live: '',
-        github: '',
+        image: frontend,
+        live: 'https://emporium-q45y.onrender.com/',
+        github: 'https://github.com/manishmeena022/emporium',
     },
     {
         num: '02',
-        category: 'Full Stack',
-        title: 'project 2',
-        description: '',
+        category: 'Full Stack Project',
+        title: 'Echo Shop',
+        description: 'A full-stack e-commerce website built with MERN stack. ',
         stack: [
-            { name: 'Html 5' },
-            { name: 'Css 3' },
-            { name: 'JavaScript' }
+            { name: 'JavaScript' },
+            { name: 'Node.js' },
+            { name: 'Express.js' },
+            { name: 'MongoDB' },
+            { name: 'React' },
+            { name: 'Redux' },
+            { name: 'SCSS' },
         ],
-        image: '/',
-        live: '',
-        github: '',
-    },
-    {
-        num: '03',
-        category: 'frontend',
-        title: 'project 3',
-        description: '',
-        stack: [
-            { name: 'Html 5' },
-            { name: 'Css 3' },
-            { name: 'JavaScript' }
-        ],
-        image: '/',
-        live: '',
-        github: '',
-    },
-    {
-        num: '04',
-        category: 'frontend',
-        title: 'project 4',
-        description: '',
-        stack: [
-            { name: 'Html 5' },
-            { name: 'Css 3' },
-            { name: 'JavaScript' }
-        ],
-        image: '/',
-        live: '',
-        github: '',
+        image: fullstack,
+        live: 'https://echoshop.vercel.app/',
+        github: 'https://github.com/manishmeena022/EchoShop',
     },
 ]
+
 const Work = () => {
     const [project, setProject] = useState(projects[0]);
 
@@ -99,9 +81,9 @@ const Work = () => {
                         <div className="flex flex-col gap-[30px] h-[50%]">
                             {/* outline num */}
                             <div className="text-8xl leading-none font-extrabold text-transparent text-outline">{project.num}</div>
-                            {/* project category */}
+                            {/* project title */}
                             <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                                {project.category} project
+                                {project.title} project
                             </h2>
                             {/*  project description */}
                             <p className="text-white/60">{project.description}</p>

@@ -58,12 +58,36 @@ const experience = {
         {
             company: 'Dynapt Solutions',
             position: 'Software Developer',
-            duration: 'March 2023 - Present'
+            duration: 'Oct 2023 - Present',
+            Responsibilities: [
+                'Developed and maintained web applications using modern web technologies such as React.js, Node.js, and MongoDB.',
+                'Collaborated with the design team to create responsive and user-friendly interfaces.',
+                'Optimized web applications for performance and scalability.',
+                'Managed databases and implemented data security measures.',
+                'Worked with the team to develop and implement new features and functionalities.'
+            ]
+        },
+        {
+            company: 'Dynapt Solutions',
+            position: 'Software Developer Intern',
+            duration: 'March 2023 - September 2023',
+            Responsibilities: [
+                'Assisted in the development and maintenance of web applications using React.js, Node.js, and MongoDB.',
+                'Worked closely with the design team to create responsive and user-friendly interfaces.',
+                'Optimized web applications for performance and scalability.',
+                'Managed databases and implemented data security measures.'
+            ]
         },
         {
             company: 'Coding Ninjas',
             position: 'Teaching Assistant',
-            duration: 'Jan, 2023 - March 2023'
+            duration: 'Jan, 2023 - March 2023',
+            Responsibilities: [
+                'Assisted students with their coding assignments and projects.',
+                'Conducted live coding sessions and workshops.',
+                'Provided guidance and support to students in understanding complex programming concepts.',
+                'Evaluated student performance and provided feedback.'
+            ]
         }
     ]
 };
@@ -77,17 +101,36 @@ const education = {
         {
             institution: 'Coding Ninjas',
             degree: 'Full Stack Web Development Bootcamp',
-            duration: "2022 - 2023"
+            duration: "2022 - 2023",
+            "Key Learning": [
+                'Developed full-stack web applications using modern web technologies such as React.js, Node.js, and MongoDB.',
+                'Worked on real-world projects to gain practical experience in web development.',
+                'Collaborated with a team to develop and implement new features and functionalities.',
+                'Optimized web applications for performance and scalability.',
+                'Managed databases and implemented data security measures.'
+            ]
         },
         {
             institution: 'Netaji Subhas Institute of Technology',
             degree: 'Bachelor of Engineering (Information Technology)',
-            duration: "2016 - 2020"
+            duration: "2016 - 2020",
+            "Key Learning": [
+                'Studied core computer science subjects such as data structures, algorithms, and database management systems.',
+                'Developed software applications using programming languages such as Java, C++, and Python.',
+                'Participated in coding competitions and hackathons to enhance problem-solving skills.',
+                'Completed a major project on web development using HTML, CSS, and JavaScript.'
+            ]
         },
         {
             institution: 'Kendriya Vidyalaya Janakpuri',
             degree: 'I - XII',
-            duration: '2004 - 2016'
+            duration: '2004 - 2016',
+            "Key Learning": [
+                'Studied a wide range of subjects including mathematics, science, social studies, and languages.',
+                'Participated in extracurricular activities such as sports, music, and art.',
+                'Developed strong communication and interpersonal skills through group projects and presentations.',
+                'Received awards and recognition for academic excellence and participation in school events.'
+            ]
         }
     ]
 };
