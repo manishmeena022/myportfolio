@@ -12,7 +12,7 @@ import { motion } from 'framer-motion';
 // about data
 const about = {
     title: 'About me',
-    description: ' A motivated and skilled full-stack developer with 1.3 years of experience in building efficient and scalable web applications. Adept at working in a collaborative environment and passionate about learning and applying modern web development technologies.',
+    description: ' A motivated and skilled full-stack developer with 1 years of experience in building efficient and scalable web applications. Adept at working in a collaborative environment and passionate about learning and applying modern web development technologies.',
     info: [
         {
             fieldName: 'Name',
@@ -24,7 +24,7 @@ const about = {
         },
         {
             fieldName: 'Experience',
-            fieldValue: '1.3 Years'
+            fieldValue: '1 Years'
         },
         {
             fieldName: 'Nationality',
@@ -58,7 +58,7 @@ const experience = {
         {
             company: 'Dynapt Solutions',
             position: 'Software Developer',
-            duration: 'Oct 2023 - Present',
+            duration: 'Mar 2024 - Present',
             Responsibilities: [
                 'Developed and maintained web applications using modern web technologies such as React.js, Node.js, and MongoDB.',
                 'Collaborated with the design team to create responsive and user-friendly interfaces.',
@@ -67,28 +67,6 @@ const experience = {
                 'Worked with the team to develop and implement new features and functionalities.'
             ]
         },
-        {
-            company: 'Dynapt Solutions',
-            position: 'Software Developer Intern',
-            duration: 'March 2023 - September 2023',
-            Responsibilities: [
-                'Assisted in the development and maintenance of web applications using React.js, Node.js, and MongoDB.',
-                'Worked closely with the design team to create responsive and user-friendly interfaces.',
-                'Optimized web applications for performance and scalability.',
-                'Managed databases and implemented data security measures.'
-            ]
-        },
-        {
-            company: 'Coding Ninjas',
-            position: 'Teaching Assistant',
-            duration: 'Jan, 2023 - March 2023',
-            Responsibilities: [
-                'Assisted students with their coding assignments and projects.',
-                'Conducted live coding sessions and workshops.',
-                'Provided guidance and support to students in understanding complex programming concepts.',
-                'Evaluated student performance and provided feedback.'
-            ]
-        }
     ]
 };
 

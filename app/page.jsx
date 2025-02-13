@@ -18,7 +18,7 @@ const Home = () => {
               Hello I'm <br /> <span className='text-accent'>Manish Meena</span>
             </h1>
             <p className='max-w-[500px] mb-9 text-white/80'>
-              Full Stack Developer with 1+ years of experience designing and implementing scalable web applications using
+              Full Stack Developer with 1 years of experience designing and implementing scalable web applications using
               modern technologies. Proficient in building responsive user interfaces, developing robust backend systems, and
               managing databases. Passionate about delivering seamless and optimized user experiences with a focus on
               performance and functionality.
